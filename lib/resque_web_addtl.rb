@@ -4,6 +4,6 @@ require 'resque-scheduler' # include the resque_scheduler (this makes the tabs s
 require 'resque/scheduler/server'
 
 Resque.redis = 'localhost:6379'
-require './test_worker.rb'
+require_relative '../test_worker.rb'
 
 Resque.schedule = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'config', 'resque_schedule.yml')) # load the schedule
