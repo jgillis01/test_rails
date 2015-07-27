@@ -42,5 +42,5 @@ gem 'unicorn-rails'
 
 # Add resque for resque worker testing
 gem 'resque', '~> 1.25.0'
-gem 'resque-pool', '0.4.0.rc2'
+gem 'resque-cluster'
 gem 'resque-scheduler'
