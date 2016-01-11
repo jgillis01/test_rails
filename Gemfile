@@ -39,6 +39,7 @@ gem 'jquery-rails'
 gem 'sidekiq'
 gem 'sidekiq-scheduler'
 gem 'unicorn-rails'
+gem 'puma'
 
 # Add resque for resque worker testing
 gem 'resque', '~> 1.25.0'
